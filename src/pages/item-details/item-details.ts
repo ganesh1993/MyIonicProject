@@ -7,6 +7,7 @@ import { NavController, NavParams } from 'ionic-angular';
   selector: 'page-item-details',
   templateUrl: 'item-details.html'
 })
+
 export class ItemDetailsPage {
   selectedItem: any;
 
