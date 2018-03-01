@@ -4,6 +4,7 @@ import { Platform, MenuController, Nav } from 'ionic-angular';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
+import {ItemDetailsPage} from '../pages/item-details/item-details';
 import { LearnmorePage } from '../pages/learnmore/learnmore';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -31,7 +32,7 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'My Profile', component: HelloIonicPage },
+      { title: 'My Profile', component: ItemDetailsPage },
       { title: 'My Work Experiences', component: ListPage },
       { title: 'Learn More',component: LearnmorePage }
     ];

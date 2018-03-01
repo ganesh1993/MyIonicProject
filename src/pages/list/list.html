@@ -3,18 +3,33 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>My Profile</ion-title>
+    <ion-title>My Work Experiences</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon name="{{item.icon}}" item-left></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-right>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
+  <div>
+      Company 1 : Pinnacle Infotech<br>
+      Desigation : Java Developer(Internship)<br>
+      Duration : 4 Month(Sept'16 to Dec'16)<br>
+      Technology : JSP,SERVLETS,SQLFRONT,NETBEANS,ECLIPSE<br>
+
+  </div><br><br>
+
+  <div>
+      Company 2 : Affixus Systems Pvt Ltd<br>
+      Desigation : Software Developer<br>
+      Duration : 13 Month(Dec'16 to Jan'18)<br>
+      Technology : ANGULARJS,HTML,CSS,JAVASCRIPT,VSCODE,ELECTRON,NODE.JS<br>
+
+  </div><br><br>
+
+  <div>
+      Company 3 : Merce Technologies Pvt Ltd<br>
+      Desigation : Application Engineer<br>
+      Duration : 1 Month(Jan'18 to Present)<br>
+      Technology : ANGULAR 2<br>
+
+  </div><br><br>
+
 </ion-content>

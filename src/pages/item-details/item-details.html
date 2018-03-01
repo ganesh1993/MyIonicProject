@@ -3,16 +3,26 @@
     <button menuToggle *ngIf="!selectedItem">
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>My Work Experience</ion-title>
+    <ion-title>My Profile</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <h3 text-center *ngIf="selectedItem">
-    {{selectedItem.title}}
-    <ion-icon [name]="selectedItem.icon"></ion-icon>
-  </h3>
-  <h4 text-center *ngIf="selectedItem">
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </h4>
+
+  <div class="cen">
+      <img src="../assets/imgs/merceEmp.png" style="border-radius: 50%; max-width:25%;">
+  </div>
+  <br><br>
+<div class="cen">
+    Designation : Application Engineer<br>
+    Company : Merce Tecnologies<br>
+    Skype : ganesh.p.tiwari<br>
+    Contact : +917738420894<br>
+    Email : ganesh.tiwari@merce.co<br>
+</div><br>
+<div class="cen">
+    <img src="../assets/imgs/merceLogo.png">
+
+</div>    
+
 </ion-content>
