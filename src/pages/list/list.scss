@@ -1,6 +1,10 @@
 page-list {
 
 }
+.cen1{
+    font-style: italic;
+    font-size: 20px;
+}
 
 .div1{
     background-image: url("../assets/imgs/pinacleLogo.png");  
@@ -20,4 +24,12 @@ page-list {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 200px 100px;
+}
+
+.back1{
+    background-color: rgba(219, 222, 224, 0.925);
+    background-image: url('../assets/imgs/mercLogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
