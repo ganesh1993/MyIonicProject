@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
-
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading, NavParams } from 'ionic-angular';
+ 
+ 
+declare var cordova: any;
 
 
 @Component({
