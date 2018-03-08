@@ -3,18 +3,26 @@ page-learnmore {
 }
 
 .font{
-    background-image: url('../assets/imgs/merce1.jpg');
+    background: url('../assets/imgs/merce1.jpg');
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
 
 }
 
-.img{
-    background-image: url('../assets/imgs/college.jpg');
+.img1{
+    background-image: url('../assets/imgs/school.jpg');
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:350px ;
 }
 
 .img2{
@@ -22,4 +30,8 @@ page-learnmore {
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
 }

@@ -9,6 +9,9 @@ import { LearnmorePage } from '../pages/learnmore/learnmore';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { MyfamilyPage } from '../pages/myfamily/myfamily';
+import { ContactusPage } from '../pages/contactus/contactus';
+import { MyfriendsPage } from '../pages/myfriends/myfriends';
 
 
 @Component({
@@ -32,9 +35,13 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
+      { title: 'Home', component: HelloIonicPage },
       { title: 'My Profile', component: ItemDetailsPage },
       { title: 'My Work Experiences', component: ListPage },
-      { title: 'Learn More',component: LearnmorePage }
+      { title: 'Learn More',component: LearnmorePage },
+      { title: 'My Family',component: MyfamilyPage },
+      { title: 'My Friends', component: MyfriendsPage },
+      { title: 'Contact Us', component: ContactusPage }
     ];
   }
 
