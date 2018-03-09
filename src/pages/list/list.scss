@@ -7,28 +7,30 @@ page-list {
 }
 
 .div1{
-    background-image: url("../assets/imgs/pinacleLogo.png");  
+    background-image: url("../assets/imgs/pinacleLogo.png");
+    block-size: 200px;
    
 }
 
 .div2{
-    background-image: url("../assets/imgs/aff.png");    
+    background-image: url("../assets/imgs/aff.png");
+    block-size: 200px;
+
   
 }
 
 .div3{
     background-image: url("../assets/imgs/merce2.png");    
-  
+    block-size: 200px;
 }
 .img{
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 200px 100px;
+    background-size: 424px 200px;
 }
 
 .back1{
     background-color: rgba(219, 222, 224, 0.925);
-    background-image: url('../assets/imgs/mercLogo.png');
     background-repeat: no-repeat;
     background-position: center;
 
