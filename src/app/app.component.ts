@@ -41,7 +41,7 @@ export class MyApp {
       { title: 'Learn More',component: LearnmorePage },
       { title: 'My Family',component: MyfamilyPage },
       { title: 'My Friends', component: MyfriendsPage },
-      { title: 'Contact Us', component: ContactusPage }
+      { title: 'Contact Me', component: ContactusPage }
     ];
   }
 
